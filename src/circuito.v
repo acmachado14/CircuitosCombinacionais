@@ -1,7 +1,7 @@
 module Circuito (a, b, c, d, e, f, g, tb_b5, tb_b4, tb_b3, tb_b2, tb_b1);
+    reg  [6:0] resultado;
     output a, b, c, d, e, f, g;
     input tb_b5, tb_b4, tb_b3, tb_b2, tb_b1;
-    reg  [6:0] resultado;
     always @(*)
     begin
         case({tb_b5, tb_b4, tb_b3, tb_b2, tb_b1})
