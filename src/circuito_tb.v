@@ -6,7 +6,7 @@ module values_TB;
     Circuito dut( a, b, c, d, e, f, g, tb_b5, tb_b4, tb_b3, tb_b2, tb_b1);
     initial begin
         $dumpvars(0, values_TB);
-        $monitor("%b%b%b%b%b, saida = %b%b%b%b%b%b%b", tb_b5, tb_b4, tb_b3, tb_b2, tb_b1,  a, b, c, d, e, f, g);
+        $monitor("entrada = %b%b%b%b%b | saida = %b%b%b%b%b%b%b", tb_b5, tb_b4, tb_b3, tb_b2, tb_b1,  a, b, c, d, e, f, g);
         tb_b5 = 0;  tb_b4 = 0; tb_b3 = 0; tb_b2 = 0; tb_b1 = 0; #1
         tb_b5 = 1;  tb_b4 = 0; tb_b3 = 0; tb_b2 = 0; tb_b1 = 0; #1
         tb_b5 = 0;  tb_b4 = 1; tb_b3 = 0; tb_b2 = 0; tb_b1 = 0; #1
