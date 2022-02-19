@@ -46,11 +46,10 @@ Logo após selecione o arquivo com a extensão .vcd para executar
 <h2 id="resultados">
     Resultados
 </h2>
-Waves
-<img src="images/gtkwave.jpeg">
 
-Entradas e Saídas
-<img src="images/terminal.png">
+<img src="images/gtkwave.JPG">
+
+<img src="images/terminal.JPG">
 
 - - - -
 <h2 id="contribuidores">
